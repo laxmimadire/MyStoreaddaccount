@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\HOME\Eclipseworkspacefor java\MyStoreDataDrivenTest\testng.xml</span>
+                    <span>C:\Users\HOME\git\reposit\MyStoreDataDrivenTest\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 3 failed,   </span>
+                    <span class="method-stats">1 method, 1 failed,   </span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -104,17 +104,7 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Testcases.CreatenewAccount" class="method navigator-link" hash-for-method="mainTest(png@gmail.com, Mrs, TestUser, UserTest, hgsdtyf, 22, July , 1985, ABCDEF, EDFG123, San, Alabama, 914...)">mainTest(png@gmail.com, Mrs, TestUser, UserTest, hgsdtyf, 22, July , 1985, ABCDEF, EDFG123, San, Alabama, 914...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Testcases.CreatenewAccount" class="method navigator-link" hash-for-method="mainTest(png@gmail.com, Mrs, TestUser, UserTest, hgsdtyf, 22, July , 1985, ABCDEF, EDFG123, San, Alabama, 914...)">mainTest(png@gmail.com, Mrs, TestUser, UserTest, hgsdtyf, 22, July , 1985, ABCDEF, EDFG123, San, Alabama, 914...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Testcases.CreatenewAccount" class="method navigator-link" hash-for-method="mainTest(png@gmail.com, Mrs, TestUser, UserTest, hgsdtyf, 22, July , 1985, ABCDEF, EDFG123, San, Alabama, 914...)">mainTest(png@gmail.com, Mrs, TestUser, UserTest, hgsdtyf, 22, July , 1985, ABCDEF, EDFG123, San, Alabama, 914...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="Testcases.CreatenewAccount" class="method navigator-link" hash-for-method="mainTest">mainTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
@@ -137,90 +127,16 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="mainTest(png@gmail.com, Mrs, TestUser, UserTest, hgsdtyf, 22, July , 1985, ABCDEF, EDFG123, San, Alabama, 914...)">
-                  </a> <!-- mainTest(png@gmail.com, Mrs, TestUser, UserTest, hgsdtyf, 22, July , 1985, ABCDEF, EDFG123, San, Alabama, 914...) -->
+                  <a name="mainTest">
+                  </a> <!-- mainTest -->
                   <span class="method-name">mainTest</span>
-                  <span class="parameters">(png@gmail.com, Mrs, TestUser, UserTest, hgsdtyf, 22, July , 1985, ABCDEF, EDFG123, San, Alabama, 91436, United States, 8489875678)</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//input[@id=&apos;id_gender1&apos;]
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;HOME-PC&apos;, ip: &apos;192.168.0.3&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;11.0.10&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at Testcases.CreatenewAccount.mainTest(CreatenewAccount.java:25)
+                  <div class="stack-trace">org.testng.internal.reflect.MethodMatcherException: 
+[public void Testcases.CreatenewAccount.mainTest() throws java.lang.Exception] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: mainTest([])
+Arguments: [(java.lang.String) pngp@gmail.com,(java.lang.String) Mrs,(java.lang.String) TestUser,(java.lang.String) UserTest,(java.lang.String) hgsdtyf,(java.lang.String) 22,(java.lang.String) July ,(java.lang.String) 1985,(java.lang.String) ABCDEF,(java.lang.String) EDFG123,(java.lang.String) San,(java.lang.String) Alabama,(java.lang.String) 91436,(java.lang.String) United States,(java.lang.String) 8489875678]
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 27 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="mainTest(png@gmail.com, Mrs, TestUser, UserTest, hgsdtyf, 22, July , 1985, ABCDEF, EDFG123, San, Alabama, 914...)">
-                  </a> <!-- mainTest(png@gmail.com, Mrs, TestUser, UserTest, hgsdtyf, 22, July , 1985, ABCDEF, EDFG123, San, Alabama, 914...) -->
-                  <span class="method-name">mainTest</span>
-                  <span class="parameters">(png@gmail.com, Mrs, TestUser, UserTest, hgsdtyf, 22, July , 1985, ABCDEF, EDFG123, San, Alabama, 91436, United States, 8489875678)</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=92.0.4515.159)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;HOME-PC&apos;, ip: &apos;192.168.0.3&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;11.0.10&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\HOME\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61878}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: ffe75257b91f5d4e26ba40f02c07ed28
-*** Element info: {Using=xpath, value=//a[contains(text(),&apos;Sign in&apos;)]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy14.click(Unknown Source)
-	at PageObjects.MystorePageObjects.clicksignin(MystorePageObjects.java:98)
-	at Testcases.CreatenewAccount.mainTest(CreatenewAccount.java:21)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 31 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="mainTest(png@gmail.com, Mrs, TestUser, UserTest, hgsdtyf, 22, July , 1985, ABCDEF, EDFG123, San, Alabama, 914...)">
-                  </a> <!-- mainTest(png@gmail.com, Mrs, TestUser, UserTest, hgsdtyf, 22, July , 1985, ABCDEF, EDFG123, San, Alabama, 914...) -->
-                  <span class="method-name">mainTest</span>
-                  <span class="parameters">(png@gmail.com, Mrs, TestUser, UserTest, hgsdtyf, 22, July , 1985, ABCDEF, EDFG123, San, Alabama, 91436, United States, 8489875678)</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=92.0.4515.159)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;HOME-PC&apos;, ip: &apos;192.168.0.3&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;11.0.10&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\HOME\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61878}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: ffe75257b91f5d4e26ba40f02c07ed28
-*** Element info: {Using=xpath, value=//a[contains(text(),&apos;Sign in&apos;)]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy14.click(Unknown Source)
-	at PageObjects.MystorePageObjects.clicksignin(MystorePageObjects.java:98)
-	at Testcases.CreatenewAccount.mainTest(CreatenewAccount.java:21)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 31 stack frames
+... Removed 22 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -229,7 +145,7 @@ Session ID: ffe75257b91f5d4e26ba40f02c07ed28
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\HOME\Eclipseworkspacefor java\MyStoreDataDrivenTest\testng.xml</span>
+            <span class="header-content">C:\Users\HOME\git\reposit\MyStoreDataDrivenTest\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -278,24 +194,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'mainTest')
 data.setCell(0, 2, 'Testcases.CreatenewAccount')
-data.setCell(0, 3, 19761);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'mainTest')
-data.setCell(1, 2, 'Testcases.CreatenewAccount')
-data.setCell(1, 3, 4212);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'mainTest')
-data.setCell(2, 2, 'Testcases.CreatenewAccount')
-data.setCell(2, 3, 4032);
+data.setCell(0, 3, 5015);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 28 seconds</span>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -326,27 +234,9 @@ return data;
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">mainTest(png@gmail.com, Mrs, TestUser, UserTest, hgsdtyf, 22, July , 1985, ABCDEF, EDFG123, San, Alabama, 914...)</span>
-                <span class="method-start">15528 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">mainTest(png@gmail.com, Mrs, TestUser, UserTest, hgsdtyf, 22, July , 1985, ABCDEF, EDFG123, San, Alabama, 914...)</span>
-                <span class="method-start">35299 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">mainTest(png@gmail.com, Mrs, TestUser, UserTest, hgsdtyf, 22, July , 1985, ABCDEF, EDFG123, San, Alabama, 914...)</span>
-                <span class="method-start">39521 ms</span>
-              </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">43564 ms</span>
+                <span class="method-start">20690 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -6,7 +6,7 @@
       <class name="Testcases.CreatenewAccount">
         <methods>
           <include name="tearDown"/>
-          <include name="mainTest" invocation-numbers="0 1 2"/>
+          <include name="mainTest"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- Testcases.CreatenewAccount -->
